@@ -5,3 +5,14 @@ document.getElementById("trackButton").addEventListener("click", function () {
     event_label: "Track Event Button Clicked",
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("trackButton");
+  if (btn) {
+    btn.addEventListener("click", function () {
+      console.log("Button clicked! Event listener is working.");
+    });
+  } else {
+    console.log("Button element not found.");
+  }
+});
