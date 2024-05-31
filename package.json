@@ -1,0 +1,16 @@
+{
+  "name": "test-ga",
+  "version": "1.0.0",
+  "description": "A simple project to integrate Google Analytics 4 using a button click event.",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Build steps not specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
